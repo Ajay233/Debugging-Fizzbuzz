@@ -6,7 +6,7 @@ class FizzBuzz
     number
   end
 
-  def is_divisib1e_by(number, divisor)
+  def is_divisible_by(number, divisor)
     number / divisor == 0
   end
 end
