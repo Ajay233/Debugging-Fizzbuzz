@@ -7,8 +7,7 @@ class FizzBuzz
   end
 
   def is_divisible_by(number, divisor)
-    output = number / divisor == 0
-    puts "tghe output of this method is #{output}"
+    number % divisor == 0
   end
 end
 
